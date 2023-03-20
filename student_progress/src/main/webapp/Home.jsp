@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +10,18 @@
 </head>
 <body>
 	<jsp:include page="NavBarTest.jsp">
-		<jsp:param value="home" name="page"/>
+		<jsp:param value="home" name="page" />
 	</jsp:include>
+	
+	<main>
+		<div class="box">
+			<div class="box_frame">
+				<article class="card">Box Title</article>
+				<div>Box Body</div>
+			</div>
+		</div>
+	</main>
 </body>
 </html>
+
+

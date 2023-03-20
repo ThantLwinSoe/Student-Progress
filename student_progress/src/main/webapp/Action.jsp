@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Student Progress</title>
-<link rel="stylesheet" type="text/css" href="styleOne.css">
+<title>Action Page</title>
+<link href="styleOne.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<jsp:include page="NavBarTest.jsp">
-		<jsp:param value="home" name="page"/>
+		<jsp:param value="action" name="page"/>
 	</jsp:include>
 </body>
 </html>
